@@ -163,7 +163,17 @@ console.log('declaration')
 */
 
 //CODE HERE
-
+function nameCheck(name) {
+  if (name === 'Steven') {
+    return 'What is up Steven?'
+  } else if (name === 'Bryan') {
+    return 'Hey Bryan!'
+  } else {
+    return `Cool name, ${name}!`
+  }
+}
+let nameGreeting = nameCheck('Sponge Bob')
+console.log(nameGreeting)
 
 ////////////////// PROBLEM 11 ////////////////////
 /*
