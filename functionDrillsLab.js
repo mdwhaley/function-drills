@@ -12,8 +12,10 @@
 */
 
 //CODE HERE
-
-
+function helloWorld() {
+  console.log("Hello, World!")
+}
+helloWorld()
 ////////////////// PROBLEM 2 ////////////////////
 
 /*
@@ -21,7 +23,10 @@
 */
 
 //CODE HERE
-
+const jsNinja = () => {
+  return 'I am a JavaScript ninja!'
+}
+console.log(jsNinja())
 
 ////////////////// PROBLEM 3 ////////////////////
 /*
