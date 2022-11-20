@@ -303,8 +303,10 @@ let sampleString = "Hi, my name is Kylo."
 */
 
 //CODE HERE
-
-
+const capitalize = str => {
+  console.log(str.toUpperCase())
+}
+capitalize(sampleString)
 ////////////////// PROBLEM 18 ////////////////////
 /*
   Write a function called emailCheck that takes in
