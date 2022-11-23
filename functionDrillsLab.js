@@ -335,15 +335,23 @@ console.log(emailCheck(email))
 */
 
 //CODE HERE
-
-
+let chocolateFrogPrice = 3;
+function goldFrogs(num) {
+  totalFrogs = num / chocolateFrogPrice;
+  return totalFrogs;
+}
+console.log(goldFrogs(99))
 ////////////////// PROBLEM 20 ////////////////////
 /*
   You might have noticed a slight bug in the previous problem. If you were to pass in 4 gold, the function would return to you 1.3333... However, you can't really go to a store and by 1.333 products. You would just be able to purchase 1 product. Re-write the function you used in the previous problem (give it the same name, just add a 2 to the end of it) that fixes this bug. Invoke the function and store the returned value to a variable called `totalFrogs2`.
 */
 
 //CODE HERE
-
+function goldFrogs2(num) {
+  totalFrogs2 = Math.floor(num / chocolateFrogPrice);
+  return totalFrogs2;
+}
+console.log(goldFrogs2(98))
 
 ////////////////// PROBLEM 21 ////////////////////
 let sampleArray = [0,1,2,3,4,7,5,6,8,9]
