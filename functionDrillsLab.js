@@ -317,6 +317,16 @@ capitalize(sampleString)
   If it does, return 'email verified' and if doesn't, 
   return 'must provide a valid email address'
 */
+let email = '   mdis@lsdkf    '
+function emailCheck(str) {
+  String(str).trim()
+  if (str.includes('@')) {
+    return 'email verified'
+  } else {
+    return 'must provide email address'
+  }
+}
+console.log(emailCheck(email))
 
 ////////////////// PROBLEM 19 ////////////////////
 /*
