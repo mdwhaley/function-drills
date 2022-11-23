@@ -369,10 +369,8 @@ function isAscending(arr) {
   for (let i = 0; i < (arr.length - 1); i++) {
     if (arr[i] < arr[i+1]) {
       arrayIsAscending = true;
-      console.log(arr[i]);
     } else {
       arrayIsAscending = false;
-      console.log(arr[i]);
       return arrayIsAscending;
     }
   }
@@ -401,13 +399,13 @@ function pond() {
 */
 
 //This array should contain the variable names (as strings) accessible in the global scope.
-let globalScope = []
+let globalScope = ['duck']
 
 //This array should contain the variable names (as strings) accessible in the bathroom function.
-let bathroomScope = []
+let bathroomScope = ['duck', 'rubberDuck', 'sailorDuck']
 
 //This array should contain the variable names (as strings) accessible in the bathtub function.
-let bathtubScope = []
+let bathtubScope = ['duck', 'sailorDuck']
 
 //This array should contain the variable names (as strings) accessible in the pond function.
-let pondScope = []
+let pondScope = ['duck', 'realDuck']
